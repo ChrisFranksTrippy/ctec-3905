@@ -1,0 +1,50 @@
+html {
+  height: 100vh;
+}
+
+body {
+  position: relative;  
+  margin: 0; 
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  
+  background-color: #95BF74;
+  font-family: Ubuntu, sans-serif; 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.c1 {
+  background-color: #99DDC8;
+}
+
+.c2 {
+  background-color: #95BF74;
+}
+
+.c3 {
+  background-color: #659B5E;
+}
+
+.c4 {
+  background-color: #556F44;
+}
+
+.c5 {
+  background-color: #283F3B;
+}
+
+
