@@ -5,6 +5,9 @@ nav {
 }
 
 .burger {
+  position: fixed;
+  top: 10px;
+  right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,8 +15,6 @@ nav {
   width: 50px;
   height: 50px;
   z-index: 10;
-  margin-top: 10px;
-  margin-right: 10px;
   background-color: white;
   border-radius: 50%;
   box-shadow: 0 2px 2px black
@@ -33,10 +34,25 @@ nav {
   top: 0;
   bottom: 0;
   right: -100vw;
-  //right: 0px;
   
-  width: 100vw;
-  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    
+  width: 30vw;
+  border-left: 3px solid white;
+  
+  background-color: rgba(255,255,255,0.8);
   
   transition: right 0.5s ease-in-out;
+}
+
+.nav-item {
+  margin-left: 10px;
+  padding: 10px 0;
+  font-size: 2em;
+}
+
+.showMenu {
+  right: 0vw;
 }
